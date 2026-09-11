@@ -20,8 +20,11 @@ class Program
             objects = int.Parse(userInput);
 
             //          List<int> numbers = []; SIMPLIFIED VERSION
-
-            numbers.Add(objects);
+            
+            if (objects != 0)
+            {  
+                numbers.Add(objects);
+            }
 
         } while (objects != 0);
 
