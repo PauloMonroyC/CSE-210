@@ -1,4 +1,5 @@
 using System;
+using System.Runtime.Intrinsics.X86;
 
 class Program
 {
@@ -6,6 +7,16 @@ class Program
     {
         Console.WriteLine("Hello World! This is the Journal Project.");
 
-        Console.WriteLine("olo");
+        
+    }
+}
+
+class Car
+{
+    public string color;
+    public int speed;
+    public void Drive()
+    {
+        Console.WriteLine("The car is driving");
     }
 }
